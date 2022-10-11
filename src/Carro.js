@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Carro(props) {
   return (
-    <div>
+    <div class= "contenedor">
       <h2>Soy un carro {props.Marca} </h2>
       <img
         src="https://i.ytimg.com/vi/GUQ3DCM3GCQ/mqdefault.jpg"
