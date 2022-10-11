@@ -1,12 +1,17 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
-export default function App() {
+export default function Carro(props) {
   return (
     <div>
-      <h1>Soy un carro</h1>
-      <img src="" alt="imagen del carro">
-     <p>Descripcion</p>
+      <h2>Soy un carro {props.Marca} </h2>
+      <img
+        src="https://i.ytimg.com/vi/GUQ3DCM3GCQ/mqdefault.jpg"
+        alt="imagen del carro"
+        width="250px"
+      />
+      <p>{props.Descripcion}</p>
+     
     </div>
   );
 }
