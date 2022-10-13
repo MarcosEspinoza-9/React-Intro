@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 
 export default function Carro(props) {
+  //codigo del profe https://stackblitz.com/edit/react-ef74tq?file=src%2FApp.js,src%2FCar.js
     const estiloDiv ={
       boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"
 
