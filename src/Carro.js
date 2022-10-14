@@ -11,7 +11,13 @@ export default function Carro(props) {
       
 
     }
-  
+  //DEclaracion de una funcion
+ const hacerbeep = ( sonido) => {
+alert(sonido);
+
+  }
+
+
   return (
     <div class= {{estiloDiv}}>
       <h2>Soy un carro {props.Marca} </h2>
@@ -21,6 +27,7 @@ export default function Carro(props) {
         width="250px"
       />
       <p>{props.Descripcion}</p>
+      <button onClick={()=> hacerbeep(propos.sonido)}> hacer beep beep </button>
      
     </div>
   );
